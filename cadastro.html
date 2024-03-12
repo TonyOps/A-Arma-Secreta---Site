@@ -77,7 +77,8 @@
                                 vwo-el-id="9726177880" data-lt-tmp-id="lt-321822" spellcheck="false" datagramm="false">
                                 <span class="vwo_1700606915505 vwo_1700607153293 text-[#FFB319]"
                                     vwo-el-id="35743353140">RESOLVA CRIMES DIGITAIS COMPLEXOS,</span><br />COM MAIS
-                                LIBERDADE E AUTONOMIA SEM DEPENDER DO ESTADO</h1>
+                                LIBERDADE E AUTONOMIA SEM DEPENDER DO ESTADO
+                            </h1>
                             <p class="mt-4 max-w-[620px] text-center text-[20px] font-[300] leading-tight md:text-left"
                                 vwo-el-id="25167684550">Nesse workshop você vai descobrir técnicas para rastrear,
                                 monitorar e capturar informações valiosas pela internet para desvendar casos complexos
@@ -108,7 +109,8 @@
                                             <path
                                                 d="M13.1223 1.95912C14.4109 2.95582 15.4702 4.15825 16.8733 5.05207C29.38 12.6926 35.6707 23.7599 39.1951 36.08C40.4103 40.3213 40.3584 45.1874 39.3724 49.559C36.7541 62.0612 30.9911 73.4898 21.8464 83.4423C19.2174 86.3151 15.8875 88.7916 12.0886 90.8688C12.5377 89.7479 12.9854 88.5257 13.5503 87.4032C15.1307 84.1388 16.8269 80.8729 18.174 77.5101C18.735 76.0837 18.7123 74.3608 18.5751 72.7408C18.5671 72.1327 17.5118 71.2343 16.8149 71.1421C16.118 71.0499 14.8508 71.6747 14.7415 72.183C11.8408 80.8371 6.14309 88.4129 1.2609 96.2821C-0.442 99.0414 0.0443606 100.758 3.19035 101.933C10.996 104.77 19.2441 105.979 27.704 105.665C27.9359 105.662 28.2783 105.252 28.9659 104.635C26.3369 98.6892 18.9416 100.611 12.9907 97.7497C14.3725 97.022 15.5251 96.5 16.4445 95.8797C34.2451 82.8738 43.5284 65.824 46.7476 46.117C47.2886 43.1704 47.0141 39.9303 46.3945 36.8976C44.0453 25.7784 38.5821 15.9166 29.5479 7.82494C26.6151 5.22805 22.7642 3.35278 19.1452 1.47446C17.7434 0.681985 15.7726 0.707903 14.1457 0.425208C13.8046 0.936513 13.4635 1.44782 13.1223 1.95912Z"
                                                 fill="#FF1E1E"></path>
-                                        </svg></span></span></div>
+                                        </svg></span></span>
+                            </div>
                         </div>
                         <div
                             class="mx-auto my-5 flex flex-col items-center gap-3 md:mx-0 md:max-w-[720px] md:items-start ">
@@ -128,13 +130,20 @@
                         class="bottom-6 right-8 mx-auto flex max-w-[420px] items-center justify-center gap-3 rounded-[50px] border border-[#535353] bg-[#090909] px-5 py-3 text-center md:absolute">
                         <span class="h-[11px] min-h-[11px] w-[11px] min-w-[11px] rounded-full bg-[#6AE596]"></span><span
                             class="min-w-fit text-[13px] font-[600] uppercase">145<!-- --> PESSOAS DE
-                            <!-- -->Singapore<!-- --> JÁ SE INSCREVERAM</span></div>
+                            <!-- -->Singapore<!-- --> JÁ SE INSCREVERAM</span>
+                    </div>
                 </div>
             </div>
             <div class="bg-[#191919]">
                 <div
                     class="text-[12px] px-5 max-w-[1200px] mx-auto h-[60px] text-center flex flex-col justify-center md:flex-row md:justify-between md:items-center gap-1 opacity-80">
-                    <span>© 2023 FRAGAX LTDA. CNPJ 24.598.038/0001-76</span><span>Todos os direitos reservados.</span>
+                    <span>© <span id="currentYear"></span> FRAGAX LTDA.
+                        <script>
+                            var currentYearElement = document.getElementById('currentYear');
+                            var currentYear = new Date().getFullYear();
+                            currentYearElement.textContent = currentYear;
+                        </script> CNPJ 24.598.038/0001-76
+                    </span><span>Todos os direitos reservados.</span>
                 </div>
             </div>
             <div class="Toastify"></div>
